@@ -1,0 +1,107 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+.body{
+	padding-top: 20px;
+}
+.block{
+	padding: 106px 0px 0px 142px;
+	width: 1440px;
+	min-height: 1700px;
+	border-radius: 15px;
+	box-shadow: 0 0 10px #000;
+	background-color:#E8E8E8;
+	margin: auto;
+}
+.block1{
+	width: 1188px;
+	min-height: 1462px;
+	border-radius: 15px;
+	background:url('../img/lines.png') no-repeat;
+	background-color:#E8E8E8;
+}
+.block_text{
+	padding: 59px 0px 0px 529px;
+	font-size: 14px;
+	font-family:  'Regular';
+	
+} 
+.block_text_second{
+	width: 761px;
+	margin: 10px 0px 0px 185px;
+	font-size: 36px;
+	font-family: 'Regular';
+	text-align: center;
+}
+.block_img{
+	position: relative;
+	width: 821px;
+	min-height: 541px;
+	margin: 80px 0px 0px 158px;
+	background-image: url('../img/main\ picture.png');
+}
+.block_last{
+	position: relative;
+	width: 750px;
+	min-height: 557px;
+	margin: 102px 0px 0px 192px;
+	font-size: 24px;
+	line-height: 40px;
+	font-family: 'Regular';
+}
+
+.block_finish{
+	width: 457px;
+	min-height: 155px;
+	margin: 22px 0px 0px 0px;
+	font-size: 20px;
+	line-height: 36px;
+	font-family: 'Regular';
+	background-color: #E7E8E8;
+}
+.block_finish_end li{
+	margin: 0px 0px 0px 10px;
+	background:url('../img/check\ icon.png') left no-repeat;
+	padding: 0px 0px 0px 30px;
+}
+.block_img_end{
+	width: 199px;
+	height: 55px;
+	margin: 25px 0px 0px 0px;
+	background:url('../img/Button.png') center no-repeat;
+	background-size: 150%;
+}
